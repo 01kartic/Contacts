@@ -1,0 +1,38 @@
+name: Contacts
+description: "save & call your contact easily."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.0.9
+  flutter_phone_direct_caller: ^2.1.1
+  cupertino_icons: ^1.0.2
+  image_picker: ^1.0.6
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  fonts:
+    - family: Product Sans
+      fonts:
+        - asset: assets/fonts/ProductSans-Regular.ttf
+  
+  assets:
+    - android/app/src/main/res/mipmap-mdpi/contact.png
+    - android/app/src/main/res/mipmap-hdpi/contact.png
+    - android/app/src/main/res/mipmap-xhdpi/contact.png
+    - android/app/src/main/res/mipmap-xxhdpi/contact.png
+    - android/app/src/main/res/mipmap-xxxhdpi/contact.png
+    - ios/Runner/Assets.xcassets/AppIcon.appiconset/_/
+
+  uses-material-design: true
